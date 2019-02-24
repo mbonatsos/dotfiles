@@ -15,3 +15,4 @@
 	save = !git add -A && git commit -m 'wip'
 	undo = reset HEAD~1 --mixed
 	amend = commit -a --amend
+	pr = "!f(){ URL=$(git config remote.origin.url); open ${URL%.git}/compare/$(git rev-parse --abbrev-ref HEAD); }; f"
