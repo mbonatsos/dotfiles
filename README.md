@@ -1,6 +1,6 @@
 # my .files
 
-## Instalation 
+## Installation 
 Download file into home directory
 ```bash
 curl -o ~/.gitconfig.aliases https://raw.githubusercontent.com/mbonatsos/dotfiles/master/git/.gitconfig.aliases
